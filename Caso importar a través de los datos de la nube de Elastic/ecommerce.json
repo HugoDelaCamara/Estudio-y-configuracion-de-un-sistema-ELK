@@ -1,0 +1,37 @@
+{
+  "_index": "sample_ecommerce",
+  "_type": "doc",
+  "_id": "2018-05-26T22:17:13",
+  "_version": 1,
+  "_score": null,
+  "_source": {
+    "dayOfWeek": 5,
+    "product_id": 1,
+    "review_rating": 4,
+    "product_category": "Clothing",
+    "timestamp": "2024-05-09T22:17:13",
+    "review_sentiment_analysis": "Stylish",
+    "product_description": "An embroidered Kibana logo brands the chest of a wardrobe-staple cotton T-shirt styled with a classic V-neck profile.",
+    "review_id": 13630,
+    "product_price": 35,
+    "review_timestamp": "2024-05-06T09:07:15",
+    "customer_id": 138,
+    "product_name": "Kibana V-Neck",
+    "transaction_id": 121417,
+    "customer_name": "Clementine Person"
+  },
+  "fields": {
+    "review_timestamp": [
+      "2018-06-06T09:07:15.000Z"
+    ],
+    "hour_of_day": [
+      22
+    ],
+    "timestamp": [
+      "2018-05-26T22:17:13.000Z"
+    ]
+  },
+  "sort": [
+    1527373033000
+  ]
+}
