@@ -29,7 +29,7 @@ url = 'http://localhost:9200'
 index = 'iris'
 
 # Cargar datos desde Elasticsearch
-df = load_data_from_elasticsearch(url, index)
+# df = load_data_from_elasticsearch(url, index)
 
 # Asumiendo que los datos de Elasticsearch tienen las mismas columnas que el dataset Iris original
 # Separar características y etiquetas
