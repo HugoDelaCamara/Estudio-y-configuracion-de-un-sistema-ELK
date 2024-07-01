@@ -1,0 +1,81 @@
+{"numero": 1, "ciudad": "Madrid", "barrio": "Salamanca", "precio": 320000, "habitaciones": 3, "baños": 2, "metros_cuadrados": 120}
+{"numero": 2, "ciudad": "Barcelona", "barrio": "Gràcia", "precio": 290000, "habitaciones": 3, "baños": 2, "metros_cuadrados": 130}
+{"numero": 3, "ciudad": "Sevilla", "barrio": "Triana", "precio": 260000, "habitaciones": 2, "baños": 1, "metros_cuadrados": 90}
+{"numero": 4, "ciudad": "Valencia", "barrio": "Ruzafa", "precio": 190000, "habitaciones": 2, "baños": 1, "metros_cuadrados": 75}
+{"numero": 5, "ciudad": "Madrid", "barrio": "Chamberí", "precio": 280000, "habitaciones": 2, "baños": 1, "metros_cuadrados": 100}
+{"numero": 6, "ciudad": "Barcelona", "barrio": "Eixample", "precio": 350000, "habitaciones": 2, "baños": 1, "metros_cuadrados": 110}
+{"numero": 7, "ciudad": "Sevilla", "barrio": "Nervión", "precio": 240000, "habitaciones": 2, "baños": 1, "metros_cuadrados": 100}
+{"numero": 8, "ciudad": "Valencia", "barrio": "Ciutat Vella", "precio": 220000, "habitaciones": 2, "baños": 1, "metros_cuadrados": 85}
+{"numero": 9, "ciudad": "Madrid", "barrio": "Retiro", "precio": 400000, "habitaciones": 4, "baños": 3, "metros_cuadrados": 150}
+{"numero": 10, "ciudad": "Barcelona", "barrio": "Sant Martí", "precio": 380000, "habitaciones": 3, "baños": 2, "metros_cuadrados": 140}
+{"numero": 11, "ciudad": "Sevilla", "barrio": "Centro", "precio": 300000, "habitaciones": 3, "baños": 2, "metros_cuadrados": 120}
+{"numero": 12, "ciudad": "Valencia", "barrio": "L'Eixample", "precio": 180000, "habitaciones": 1, "baños": 1, "metros_cuadrados": 70}
+{"numero": 13, "ciudad": "Madrid", "barrio": "Salamanca", "precio": 320000, "habitaciones": 3, "baños": 2, "metros_cuadrados": 120} 
+{"numero": 14, "ciudad": "Barcelona", "barrio": "Gràcia", "precio": 290000, "habitaciones": 3, "baños": 2, "metros_cuadrados": 130}
+{"numero": 15, "ciudad": "Sevilla", "barrio": "Triana", "precio": 260000, "habitaciones": 2, "baños": 1, "metros_cuadrados": 90}
+{"numero": 16, "ciudad": "Valencia", "barrio": "Ruzafa", "precio": 190000, "habitaciones": 2, "baños": 1, "metros_cuadrados": 75}
+{"numero": 17, "ciudad": "Madrid", "barrio": "Chamberí", "precio": 280000, "habitaciones": 2, "baños": 1, "metros_cuadrados": 100}
+{"numero": 18, "ciudad": "Barcelona", "barrio": "Eixample", "precio": 350000, "habitaciones": 2, "baños": 1, "metros_cuadrados": 110}
+{"numero": 19, "ciudad": "Sevilla", "barrio": "Nervión", "precio": 240000, "habitaciones": 2, "baños": 1, "metros_cuadrados": 100}
+{"numero": 20, "ciudad": "Valencia", "barrio": "Ciutat Vella", "precio": 220000, "habitaciones": 2, "baños": 1, "metros_cuadrados": 85}
+{"numero": 21, "ciudad": "Madrid", "barrio": "Retiro", "precio": 400000, "habitaciones": 4, "baños": 3, "metros_cuadrados": 150}
+{"numero": 22, "ciudad": "Barcelona", "barrio": "Sant Martí", "precio": 380000, "habitaciones": 3, "baños": 2, "metros_cuadrados": 140}
+{"numero": 23, "ciudad": "Sevilla", "barrio": "Centro", "precio": 300000, "habitaciones": 3, "baños": 2, "metros_cuadrados": 120}
+{"numero": 24, "ciudad": "Valencia", "barrio": "L'Eixample", "precio": 180000, "habitaciones": 1, "baños": 1, "metros_cuadrados": 70}
+{"numero": 25, "ciudad": "Madrid", "barrio": "Salamanca", "precio": 320000, "habitaciones": 3, "baños": 2, "metros_cuadrados": 120}
+{"numero": 26, "ciudad": "Barcelona", "barrio": "Gràcia", "precio": 290000, "habitaciones": 3, "baños": 2, "metros_cuadrados": 130}
+{"numero": 27, "ciudad": "Sevilla", "barrio": "Triana", "precio": 260000, "habitaciones": 2, "baños": 1, "metros_cuadrados": 90}
+{"numero": 28, "ciudad": "Valencia", "barrio": "Ruzafa", "precio": 190000, "habitaciones": 2, "baños": 1, "metros_cuadrados": 75}
+{"numero": 29, "ciudad": "Madrid", "barrio": "Chamberí", "precio": 280000, "habitaciones": 2, "baños": 1, "metros_cuadrados": 100}
+{"numero": 30, "ciudad": "Barcelona", "barrio": "Eixample", "precio": 350000, "habitaciones": 2, "baños": 1, "metros_cuadrados": 110}
+{"numero": 31, "ciudad": "Sevilla", "barrio": "Nervión", "precio": 240000, "habitaciones": 2, "baños": 1, "metros_cuadrados": 100}
+{"numero": 32, "ciudad": "Valencia", "barrio": "Ciutat Vella", "precio": 220000, "habitaciones": 2, "baños": 1, "metros_cuadrados": 85}
+{"numero": 33, "ciudad": "Madrid", "barrio": "Retiro", "precio": 400000, "habitaciones": 4, "baños": 3, "metros_cuadrados": 150}
+{"numero": 34, "ciudad": "Barcelona", "barrio": "Sant Martí", "precio": 380000, "habitaciones": 3, "baños": 2, "metros_cuadrados": 140}
+{"numero": 35, "ciudad": "Sevilla", "barrio": "Centro", "precio": 300000, "habitaciones": 3, "baños": 2, "metros_cuadrados": 120}
+{"numero": 36, "ciudad": "Valencia", "barrio": "L'Eixample", "precio": 180000, "habitaciones": 1, "baños": 1, "metros_cuadrados": 70}
+{"numero": 37, "ciudad": "Madrid", "barrio": "Salamanca", "precio": 320000, "habitaciones": 3, "baños": 2, "metros_cuadrados": 120}
+{"numero": 38, "ciudad": "Barcelona", "barrio": "Gràcia", "precio": 290000, "habitaciones": 3, "baños": 2, "metros_cuadrados": 130}
+{"numero": 39, "ciudad": "Sevilla", "barrio": "Triana", "precio": 260000, "habitaciones": 2, "baños": 1, "metros_cuadrados": 90}
+{"numero": 40, "ciudad": "Valencia", "barrio": "Ruzafa", "precio": 190000, "habitaciones": 2, "baños": 1, "metros_cuadrados": 75}
+{"numero": 41, "ciudad": "Madrid", "barrio": "Chamberí", "precio": 280000, "habitaciones": 2, "baños": 1, "metros_cuadrados": 100}
+{"numero": 42, "ciudad": "Barcelona", "barrio": "Eixample", "precio": 350000, "habitaciones": 2, "baños": 1, "metros_cuadrados": 110}
+{"numero": 43, "ciudad": "Sevilla", "barrio": "Nervión", "precio": 240000, "habitaciones": 2, "baños": 1, "metros_cuadrados": 100}
+{"numero": 44, "ciudad": "Valencia", "barrio": "Ciutat Vella", "precio": 220000, "habitaciones": 2, "baños": 1, "metros_cuadrados": 85}
+{"numero": 45, "ciudad": "Madrid", "barrio": "Retiro", "precio": 400000, "habitaciones": 4, "baños": 3, "metros_cuadrados": 150}
+{"numero": 46, "ciudad": "Barcelona", "barrio": "Sant Martí", "precio": 380000, "habitaciones": 3, "baños": 2, "metros_cuadrados": 140}
+{"numero": 47, "ciudad": "Sevilla", "barrio": "Centro", "precio": 300000, "habitaciones": 3, "baños": 2, "metros_cuadrados": 120}
+{"numero": 48, "ciudad": "Valencia", "barrio": "L'Eixample", "precio": 180000, "habitaciones": 1, "baños": 1, "metros_cuadrados": 70}
+{"numero": 49, "ciudad": "Madrid", "barrio": "Salamanca", "precio": 320000, "habitaciones": 3, "baños": 2, "metros_cuadrados": 120}
+{"numero": 50, "ciudad": "Barcelona", "barrio": "Gràcia", "precio": 290000, "habitaciones": 3, "baños": 2, "metros_cuadrados": 130}
+{"numero": 51, "ciudad": "Sevilla", "barrio": "Triana", "precio": 260000, "habitaciones": 2, "baños": 1, "metros_cuadrados": 90}
+{"numero": 52, "ciudad": "Valencia", "barrio": "Ruzafa", "precio": 190000, "habitaciones": 2, "baños": 1, "metros_cuadrados": 75}
+{"numero": 53, "ciudad": "Madrid", "barrio": "Chamberí", "precio": 280000, "habitaciones": 2, "baños": 1, "metros_cuadrados": 100}
+{"numero": 54, "ciudad": "Barcelona", "barrio": "Eixample", "precio": 350000, "habitaciones": 2, "baños": 1, "metros_cuadrados": 110}
+{"numero": 55, "ciudad": "Sevilla", "barrio": "Nervión", "precio": 240000, "habitaciones": 2, "baños": 1, "metros_cuadrados": 100}
+{"numero": 56, "ciudad": "Valencia", "barrio": "Ciutat Vella", "precio": 220000, "habitaciones": 2, "baños": 1, "metros_cuadrados": 85}
+{"numero": 57, "ciudad": "Madrid", "barrio": "Retiro", "precio": 400000, "habitaciones": 4, "baños": 3, "metros_cuadrados": 150}
+{"numero": 58, "ciudad": "Barcelona", "barrio": "Sant Martí", "precio": 380000, "habitaciones": 3, "baños": 2, "metros_cuadrados": 140}
+{"numero": 59, "ciudad": "Sevilla", "barrio": "Centro", "precio": 300000, "habitaciones": 3, "baños": 2, "metros_cuadrados": 120}
+{"numero": 60, "ciudad": "Valencia", "barrio": "L'Eixample", "precio": 180000, "habitaciones": 1, "baños": 1, "metros_cuadrados": 70}
+{"numero": 61, "ciudad": "Madrid", "barrio": "Salamanca", "precio": 320000, "habitaciones": 3, "baños": 2, "metros_cuadrados": 120}
+{"numero": 62, "ciudad": "Barcelona", "barrio": "Gràcia", "precio": 290000, "habitaciones": 3, "baños": 2, "metros_cuadrados": 130}
+{"numero": 63, "ciudad": "Sevilla", "barrio": "Triana", "precio": 260000, "habitaciones": 2, "baños": 1, "metros_cuadrados": 90}
+{"numero": 64, "ciudad": "Valencia", "barrio": "Ruzafa", "precio": 190000, "habitaciones": 2, "baños": 1, "metros_cuadrados": 75}
+{"numero": 65, "ciudad": "Madrid", "barrio": "Chamberí", "precio": 280000, "habitaciones": 2, "baños": 1, "metros_cuadrados": 100}
+{"numero": 66, "ciudad": "Barcelona", "barrio": "Eixample", "precio": 350000, "habitaciones": 2, "baños": 1, "metros_cuadrados": 110}
+{"numero": 67, "ciudad": "Sevilla", "barrio": "Nervión", "precio": 240000, "habitaciones": 2, "baños": 1, "metros_cuadrados": 100}
+{"numero": 68, "ciudad": "Valencia", "barrio": "Ciutat Vella", "precio": 220000, "habitaciones": 2, "baños": 1, "metros_cuadrados": 85}
+{"numero": 69, "ciudad": "Madrid", "barrio": "Retiro", "precio": 400000, "habitaciones": 4, "baños": 3, "metros_cuadrados": 150}
+{"numero": 70, "ciudad": "Barcelona", "barrio": "Sant Martí", "precio": 380000, "habitaciones": 3, "baños": 2, "metros_cuadrados": 140}
+{"numero": 71, "ciudad": "Sevilla", "barrio": "Centro", "precio": 300000, "habitaciones": 3, "baños": 2, "metros_cuadrados": 120}
+{"numero": 72, "ciudad": "Valencia", "barrio": "L'Eixample", "precio": 180000, "habitaciones": 1, "baños": 1, "metros_cuadrados": 70}
+{"numero": 73, "ciudad": "Madrid", "barrio": "Salamanca", "precio": 320000, "habitaciones": 3, "baños": 2, "metros_cuadrados": 120}
+{"numero": 74, "ciudad": "Barcelona", "barrio": "Gràcia", "precio": 290000, "habitaciones": 3, "baños": 2, "metros_cuadrados": 130}
+{"numero": 75, "ciudad": "Sevilla", "barrio": "Triana", "precio": 260000, "habitaciones": 2, "baños": 1, "metros_cuadrados": 90}
+{"numero": 76, "ciudad": "Valencia", "barrio": "Ruzafa", "precio": 190000, "habitaciones": 2, "baños": 1, "metros_cuadrados": 75}
+{"numero": 77, "ciudad": "Madrid", "barrio": "Chamberí", "precio": 280000, "habitaciones": 2, "baños": 1, "metros_cuadrados": 100}
+{"numero": 78, "ciudad": "Barcelona", "barrio": "Eixample", "precio": 350000, "habitaciones": 2, "baños": 1, "metros_cuadrados": 110}
+{"numero": 79, "ciudad": "Sevilla", "barrio": "Nervión", "precio": 240000, "habitaciones": 2, "baños": 1, "metros_cuadrados": 100}
+{"numero": 80, "ciudad": "Valencia", "barrio": "Ciutat Vella", "precio": 220000, "habitaciones": 2, "baños": 1, "metros_cuadrados": 85}
+
