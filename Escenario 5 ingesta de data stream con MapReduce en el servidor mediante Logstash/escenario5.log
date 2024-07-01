@@ -1,0 +1,25 @@
+{"transaction_id": "1", "timestamp": "2024-06-18T16:01:23.220156Z", "customer_id": "136", "amount": 71.0, "payment_method": "Debit Card", "product_category": "Books"}
+{"transaction_id": "2", "timestamp": "2024-06-18T16:06:23.220156Z", "customer_id": "133", "amount": 28.99, "payment_method": "Debit Card", "product_category": "Books"}
+{"transaction_id": "3", "timestamp": "2024-06-18T16:11:23.220156Z", "customer_id": "125", "amount": 73.38, "payment_method": "Credit Card", "product_category": "Electronics"}
+{"transaction_id": "4", "timestamp": "2024-06-18T16:16:23.220156Z", "customer_id": "139", "amount": 296.39, "payment_method": "Debit Card", "product_category": "Clothing"}
+{"transaction_id": "5", "timestamp": "2024-06-18T16:21:23.220156Z", "customer_id": "123", "amount": 256.04, "payment_method": "Debit Card", "product_category": "Books"}
+{"transaction_id": "6", "timestamp": "2024-06-18T16:26:23.220156Z", "customer_id": "130", "amount": 239.69, "payment_method": "PayPal", "product_category": "Clothing"}
+{"transaction_id": "7", "timestamp": "2024-06-18T16:31:23.220156Z", "customer_id": "135", "amount": 53.53, "payment_method": "PayPal", "product_category": "Books"}
+{"transaction_id": "8", "timestamp": "2024-06-18T16:36:23.220156Z", "customer_id": "127", "amount": 109.12, "payment_method": "PayPal", "product_category": "Electronics"}
+{"transaction_id": "9", "timestamp": "2024-06-18T16:41:23.220156Z", "customer_id": "123", "amount": 232.58, "payment_method": "Debit Card", "product_category": "Clothing"}
+{"transaction_id": "10", "timestamp": "2024-06-18T16:46:23.220156Z", "customer_id": "130", "amount": 123.14, "payment_method": "Debit Card", "product_category": "Books"}
+{"transaction_id": "11", "timestamp": "2024-06-18T16:51:23.220156Z", "customer_id": "131", "amount": 207.7, "payment_method": "PayPal", "product_category": "Books"}
+{"transaction_id": "12", "timestamp": "2024-06-18T16:56:23.220156Z", "customer_id": "123", "amount": 214.98, "payment_method": "Debit Card", "product_category": "Electronics"}
+{"transaction_id": "13", "timestamp": "2024-06-18T17:01:23.220156Z", "customer_id": "123", "amount": 188.53, "payment_method": "Credit Card", "product_category": "Clothing"}
+{"transaction_id": "14", "timestamp": "2024-06-18T17:06:23.220156Z", "customer_id": "133", "amount": 153.47, "payment_method": "PayPal", "product_category": "Clothing"}
+{"transaction_id": "15", "timestamp": "2024-06-18T17:11:23.220156Z", "customer_id": "133", "amount": 65.57, "payment_method": "PayPal", "product_category": "Clothing"}
+{"transaction_id": "16", "timestamp": "2024-06-18T17:16:23.220156Z", "customer_id": "131", "amount": 75.15, "payment_method": "Debit Card", "product_category": "Books"}
+{"transaction_id": "17", "timestamp": "2024-06-18T17:21:23.220156Z", "customer_id": "133", "amount": 277.48, "payment_method": "Credit Card", "product_category": "Books"}
+{"transaction_id": "18", "timestamp": "2024-06-18T17:26:23.220156Z", "customer_id": "136", "amount": 143.61, "payment_method": "PayPal", "product_category": "Electronics"}
+{"transaction_id": "19", "timestamp": "2024-06-18T17:31:23.220156Z", "customer_id": "128", "amount": 23.58, "payment_method": "Credit Card", "product_category": "Electronics"}
+{"transaction_id": "20", "timestamp": "2024-06-18T17:36:23.220156Z", "customer_id": "124", "amount": 250.32, "payment_method": "PayPal", "product_category": "Electronics"}
+{"transaction_id": "21", "timestamp": "2024-06-18T17:41:23.220156Z", "customer_id": "136", "amount": 182.68, "payment_method": "PayPal", "product_category": "Clothing"}
+{"transaction_id": "22", "timestamp": "2024-06-18T17:46:23.220156Z", "customer_id": "128", "amount": 198.35, "payment_method": "Debit Card", "product_category": "Clothing"}
+{"transaction_id": "23", "timestamp": "2024-06-18T17:51:23.220156Z", "customer_id": "131", "amount": 266.08, "payment_method": "Credit Card", "product_category": "Electronics"}
+{"transaction_id": "24", "timestamp": "2024-06-18T17:56:23.220156Z", "customer_id": "139", "amount": 59.8, "payment_method": "Debit Card", "product_category": "Books"}
+{"transaction_id": "25", "timestamp": "2024-06-18T18:01:23.220156Z", "customer_id": "137", "amount": 193.65, "payment_method": "Credit Card", "product_category": "Books"}
