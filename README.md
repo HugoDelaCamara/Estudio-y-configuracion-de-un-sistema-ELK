@@ -26,6 +26,9 @@ Mi trabajo de fin de grado se centra en explorar lo que nos ofrecen las aplicaci
 
 En el siguiente enlace están subido los [vídeos de demostración](https://universidaddeburgos-my.sharepoint.com/:f:/g/personal/hds1001_alu_ubu_es/EgJtDNIp5vpLgA6pKUdeHtQB9XftCBsVYU2oEpzmMwhjKg?e=RKt3WW) del funcionamiento del proyecto.
 
+## Documentación
+En los siguientes enlaces se adjuntan tanto la [memoria](https://github.com/hds1001/Estudio-y-configuracion-de-un-sistema-ELK/blob/main/docs/memoria.pdf) del proyecto como los [anexos](https://github.com/hds1001/Estudio-y-configuracion-de-un-sistema-ELK/blob/main/docs/anexos.pdf) del mismo.
+
 ## Contacto
 
 * **GitHub:** [hds1001](https://github.com/hds1001)
