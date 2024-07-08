@@ -1,0 +1,210 @@
+\apendice{Especificación de Requisitos}
+
+\section{Introducción}
+
+Este apéndice ha sido modificado de una escpecificación de requisitos convencial, en lugar de exponer los diferentes requisitos, estos van a ser sustituidos por los escenarios analizados en el proyecto, adaptando así este anexo a la forma del estudio.
+
+
+\section{Objetivos generales}
+El objetivo de este estudio ha sido el de hacer un estudio de diferentes escenarios modificando la fuente de ingesta de un sistema ELK. En este anexo se van a hacer un desglose de cada uno de esos escenarios.
+
+\section{Catálogo de requisitos}
+\begin{enumerate}
+    \item \textbf{Escenario 1: ingesta de fichero desde Elastic }
+    \item \textbf{Escenario 2: ingesta de fichero desde Logstash }
+    \item \textbf{Escenario 3: ingesta desde WebSocket a Elastic }
+    \item \textbf{Escenario 4: ingesta de WebSocket desde Logstash }
+    \item \textbf{Escenario 5: ingesta de data stream desde Logstash aplicando MapReduce }
+    \item \textbf{Escenario de aplicación de Machine Learning a un conjunto de datos}
+\end{enumerate}
+
+
+\section{Especificación de requisitos}
+
+Para adaptar este apartado al estudio, en esta sección se va a exponer cada escenario realizado como si fuera un caso de uso, adaptando la plantilla de manera que se adecue a la información que se quiere mostrar
+\begin{table}[p]
+	\centering
+	\begin{tabularx}{\linewidth}{ p{0.21\columnwidth} p{0.71\columnwidth} }
+		\toprule
+		\textbf{CU-1}    & \textbf{Escenario 1: ingesta de fichero desde Elastic}\\
+		\toprule
+		\textbf{Versión}              & 1.0    \\
+		\textbf{Autor}                & Hugo de la Cámara Saiz \\
+		\textbf{Descripción}          & En este escenario se pretende ingestar un fichero de tipo CSV directamente desde Elastic sin intermediarios. \\
+		\textbf{Precondición}         & Tener un fichero con datos en formato CSV en el sistema local  \\
+		\textbf{Acciones}             &
+		\begin{enumerate}
+			\def\labelenumi{\arabic{enumi}.}
+			\tightlist
+			\item Importar el archivo desde el menú de Elastic
+                \item Mostrar en un dashboard visualizaciones de los datos.
+		\end{enumerate}\\
+            \textbf{Postcondiciones}             &
+		\begin{enumerate}
+			\def\labelenumi{\arabic{enumi}.}
+			\tightlist
+			\item Comprobar en el Index Management que el índice se ha generado correctamente
+			\item Comprobar en el Discoverer que el contenido del archivo ha sido importado correctamente.
+		\end{enumerate}\\
+		\textbf{Importancia}          & Alta \\
+		\bottomrule
+	\end{tabularx}
+	\caption{CU-1 Escenario 1: ingesta de fichero desde Elastic}
+\end{table}
+
+\begin{table}[p]
+	\centering
+	\begin{tabularx}{\linewidth}{ p{0.21\columnwidth} p{0.71\columnwidth} }
+		\toprule
+		\textbf{CU-2}    & \textbf{Escenario 2: ingesta de fichero desde Logstash}\\
+		\toprule
+		\textbf{Versión}              & 1.0    \\
+		\textbf{Autor}                & Hugo de la Cámara Saiz \\
+		\textbf{Descripción}          & En este escenario se pretende ingestar un fichero de tipo log desde Logstash aplicándole una serie de transformaciones y mandarlo a Elastic posteriormente. \\
+		\textbf{Precondición}         & Tener el fichero .log en el sistema local \\
+		\textbf{Acciones}             &
+		\begin{enumerate}
+			\def\labelenumi{\arabic{enumi}.}
+			\tightlist
+			\item Crear un archivo .conf para Logstash en el que se le indique la ruta al input de los datos.
+                \item Modificar en la sección filter las diferentes transformaciones que se quieren aplicar.
+                \item Indicar en la sección output que se quiere mandar a ElasticSearch los datos procesados.
+                \item Ejecutar Logstash con el archivo de configuración creado.
+                \item Mostrar en un dashboard visualizaciones de los datos.
+		\end{enumerate}\\
+            \textbf{Postcondiciones}             &
+		\begin{enumerate}
+			\def\labelenumi{\arabic{enumi}.}
+			\tightlist
+			\item Comprobar en el Index Management que el índice se ha generado correctamente
+			\item Comprobar en el Discoverer que el contenido del archivo ha sido importado correctamente.
+		\end{enumerate}\\
+		\textbf{Importancia}          & Alta \\
+		\bottomrule
+	\end{tabularx}
+	\caption{CU-2 Escenario 2: ingesta de fichero desde Logstash}
+\end{table}
+
+\begin{table}[p]
+	\centering
+	\begin{tabularx}{\linewidth}{ p{0.21\columnwidth} p{0.71\columnwidth} }
+		\toprule
+		\textbf{CU-3}    & \textbf{Escenario 3: ingesta desde WebSocket a Elastic}\\
+		\toprule
+		\textbf{Versión}              & 1.0    \\
+		\textbf{Autor}                & Hugo de la Cámara Saiz \\
+		\textbf{Descripción}          & En este escenario se pretende ingestar un data stream desde un WebSocket directamente a Elastic, sin intermediarios. \\
+		\textbf{Precondición}         & Disponer de una fuente de datos websocket  \\
+		\textbf{Acciones}             &
+		\begin{enumerate}
+			\def\labelenumi{\arabic{enumi}.}
+			\tightlist
+			\item Configurar la fuente de datos websocket para insgestar los datos directamente en ElasticSearch.
+                \item Mostrar en un dashboard visualizaciones de los datos.
+		\end{enumerate}\\
+             \textbf{Postcondiciones}             &
+		\begin{enumerate}
+			\def\labelenumi{\arabic{enumi}.}
+			\tightlist
+			\item Comprobar en el Index Management que el índice se ha generado correctamente
+			\item Comprobar en el Discoverer que el contenido del archivo ha sido importado correctamente.
+		\end{enumerate}\\
+		\textbf{Importancia}          & Alta \\
+		\bottomrule
+	\end{tabularx}
+	\caption{CU-3 Escenario 3: ingesta desde WebSocket a Elastic}
+\end{table}
+
+\begin{table}[p]
+	\centering
+	\begin{tabularx}{\linewidth}{ p{0.21\columnwidth} p{0.71\columnwidth} }
+		\toprule
+		\textbf{CU-4}    & \textbf{Escenario 4: ingesta de WebSocket desde Logstash}\\
+		\toprule
+		\textbf{Versión}              & 1.0    \\
+		\textbf{Autor}                & Hugo de la Cámara Saiz \\
+		\textbf{Descripción}          & En este escenario se pretende ingestar un data stream de un WebSocket desde Logstash, procesar los datos y que se manden a Elastic. \\
+		\textbf{Precondición}         & Disponer de una fuente de datos websocket \\
+		\textbf{Acciones}             &
+		\begin{enumerate}
+			\def\labelenumi{\arabic{enumi}.}
+			\tightlist
+			\item Crear un script para estructurar la suscripción y los campos que se quieren mandar.
+                \item Configurar la fuente de datos WebSocket para ingestar los datos desde Logstash
+                \item Configurar Logstash para que transforme los datos y los mande a Elastic
+                \item Mostrar en un dashboard visualizaciones de los datos
+		\end{enumerate}\\
+              \textbf{Postcondiciones}             &
+		\begin{enumerate}
+			\def\labelenumi{\arabic{enumi}.}
+			\tightlist
+			\item Comprobar en el Index Management que el índice se ha generado correctamente
+			\item Comprobar en el Discoverer que el contenido del archivo ha sido importado correctamente.
+		\end{enumerate}\\
+		\textbf{Importancia}          & Alta \\
+		\bottomrule
+	\end{tabularx}
+	\caption{CU-4 Escenario 4: ingesta de WebSocket desde Logstash}
+\end{table}
+
+\begin{table}[p]
+	\centering
+	\begin{tabularx}{\linewidth}{ p{0.21\columnwidth} p{0.71\columnwidth} }
+		\toprule
+		\textbf{CU-5}    & \textbf{Escenario 5: ingesta de data stream desde Logstash aplicando MapReduce}\\
+		\toprule
+		\textbf{Versión}              & 1.0    \\
+		\textbf{Autor}                & Hugo de la Cámara Saiz \\
+		\textbf{Descripción}          & En este escenario se pretende ingestar los datos de un data stream procesados aplicando MapReduce por Logstash hasta Elastic. \\
+		\textbf{Precondición}         & Disponer de una fuente de streaming de datos  \\
+		\textbf{Acciones}             &
+		\begin{enumerate}
+			\def\labelenumi{\arabic{enumi}.}
+			\tightlist
+			\item Configurar la fuente de datos para ingestar los datos hacia Logstash
+                \item Configurar Logstash para que transforme los datos haciendo Map-Reduce y mandándolos a Elastic
+                \item Mostrar en un dashboard visualizaciones de los datos.
+		\end{enumerate}\\
+                \textbf{Postcondiciones}             &
+		\begin{enumerate}
+			\def\labelenumi{\arabic{enumi}.}
+			\tightlist
+			\item Comprobar en el Index Management que el índice se ha generado correctamente
+			\item Comprobar en el Discoverer que el contenido del archivo ha sido importado correctamente.
+		\end{enumerate}\\
+		\textbf{Importancia}          & Alta \\
+		\bottomrule
+	\end{tabularx}
+	\caption{CU-5 Escenario 5: ingesta de data stream desde Logstash aplicando MapReduce}
+\end{table}
+
+
+\begin{table}[p]
+	\centering
+	\begin{tabularx}{\linewidth}{ p{0.21\columnwidth} p{0.71\columnwidth} }
+		\toprule
+		\textbf{CU-6}    & \textbf{Escenario de aplicación de Machine Learning a un conjunto de datos}\\
+		\toprule
+		\textbf{Versión}              & 1.0    \\
+		\textbf{Autor}                & Hugo de la Cámara Saiz \\
+		\textbf{Descripción}          & En este escenario se pretende aplicar funciones de Machine Learning a un conjunto de datos y mandar los resultados a Elastic. \\
+		\textbf{Precondición}         & Disponer de un conjunto de datos  \\
+		\textbf{Acciones}             &
+		\begin{enumerate}
+			\def\labelenumi{\arabic{enumi}.}
+			\tightlist
+			\item Configurar un script que aplique algoritmos de clasificación, regresión, clustering y reducción de características a un conjunto de datos y que mande los resultados a Elastic.
+                \item Mostrar en un dashboard visualizaciones de los datos.
+		\end{enumerate}\\
+                \textbf{Postcondiciones}             &
+		\begin{enumerate}
+			\def\labelenumi{\arabic{enumi}.}
+			\tightlist
+			\item Comprobar en el Index Management que el índice se ha generado correctamente
+			\item Comprobar en el Discoverer que el contenido del archivo ha sido importado correctamente.
+		\end{enumerate}\\
+		\textbf{Importancia}          & Alta \\
+		\bottomrule
+	\end{tabularx}
+	\caption{CU-6 Escenario de aplicación de Machine Learning a un conjunto de datos}
+\end{table}

@@ -1,0 +1,27 @@
+\capitulo{2}{Objetivos del proyecto}
+
+El objetivo principal de este trabajo es estudiar de manera amplia el abánico de posibilidades que nos ofrece un sistema ELK que sea capaz de completar todos los requisitos que pueda tener un particular o empresa en un entorno de ingesta, procesamiento, análisis y visualización de datos. Al tratarse este trabajo de un estudio y no de un desarrollo se ha modificado la estructura de el apartado "\textit{Objetivos del software }" a "\textit{Objetivos del estudio}" y se ha seguido con la sección de objetivos de tipo técnico al ponerse en práctica lo estudiado. 
+
+\section{Objetivos del estudio}
+\begin{itemize}
+    \item Plantear una estructura de la arquitectura que sea fácil de comprender y aplicar a la hora querer mejorar la comprensión del flujo de procesamiento de los datos.
+    \item Crear distintos escenarios en los que, modificando la fuente de la ingesta de datos, podamos exponer todo el potencial de las funciones de Logstash, Machine Learning y los dashboards de Kibana.
+    \item Procesar datos en tiempo real a través de protocolos de red como WebSockets e integrarlo en nuestro ecosistema.
+    \item Poder procesar una ingesta masiva de datos a través de la aplicación de Map Reduce.
+    \item Poder detectar fallos o anomalías que puedan surgir en los registros de manera rápida y efectiva. 
+    \item Documentar de manera adecuada todo lo necesario para gestionar un sistema ELK, de manera que cualquier usuario pueda comprender su funcionamiento y elegir la configuración que más le convenga.
+    \item Encontrar una solución gratuita de integración de Machine Learning en el sistema ELK.
+    \item     Intentar adaptar los escenarios estudiados lo máximo posible a situaciones reales que se puedan plantear.
+\end{itemize}
+
+\section{Objetivos técnicos}
+\begin{itemize}
+    \item Emplear las tecnologías que nos ofrece el stack de herramientas ELK basado en el ecosistema Elastic para hacer un despliegue del mismo.
+    \item Diseñar scripts de apoyo en lenguajes de programación como Python.
+    \item Emplear las funciones de Machine Learning que nos ofrece la libreria scikit-learn e implementarlas en nuestro ecosistema.
+    \item Mantener actualizaciones de los progresos y avances en el proyecto a través de las issues en el repositorio GitHub.
+    \item Generar distintas \textit{pipelines} de ingesta de datos aplicando filtros y transformaciones a las mismas.
+    \item Crear diferentes índices en Elastic para cada escenario basado en situaciones de un entorno real que vamos a generar.
+    \item Plasmar todo este tratamiento de los datos en un resultado final en Kibana a través de sus \textit{dashboards}.
+\end{itemize}
+
