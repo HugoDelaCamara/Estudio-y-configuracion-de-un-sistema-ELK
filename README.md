@@ -22,9 +22,11 @@ Mi trabajo de fin de grado se centra en explorar lo que nos ofrecen las aplicaci
    * [Logstash](https://www.elastic.co/es/logstash)
    * [Kibana](https://www.elastic.co/es/kibana)
 
-## Vídeos de demostración
+## Enlaces
 
 En el siguiente enlace están subido los [vídeos de demostración](https://universidaddeburgos-my.sharepoint.com/:f:/g/personal/hds1001_alu_ubu_es/EgJtDNIp5vpLgA6pKUdeHtQB9XftCBsVYU2oEpzmMwhjKg?e=RKt3WW) del funcionamiento del proyecto.
+
+En el siguiente enlace está subido la [máquina virtual](https://universidaddeburgos-my.sharepoint.com/:u:/g/personal/hds1001_alu_ubu_es/ESTYmbRsJbZHmz7oCoXCivsBpMp-usLXG3ngjtTzkCSuHg?e=fp0tOA) del proyecto.
 
 ## Documentación
 En los siguientes enlaces se adjuntan tanto la [memoria](https://github.com/hds1001/Estudio-y-configuracion-de-un-sistema-ELK/blob/main/docs/memoria.pdf) del proyecto como los [anexos](https://github.com/hds1001/Estudio-y-configuracion-de-un-sistema-ELK/blob/main/docs/anexos.pdf) del mismo.
